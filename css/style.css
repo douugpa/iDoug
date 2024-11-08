@@ -37,9 +37,9 @@ a::before {
     display: inline-block;
     padding: 18px 20px;
     margin-right: 0;
+    transition: transform 150ms linear;
 }
 
 #button:hover {
-    background-color: #ea8e9c; 
-    color: #0E151F;
+    transform: scale(1.08);
 }
